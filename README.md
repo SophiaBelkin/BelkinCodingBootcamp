@@ -1,4 +1,4 @@
-# Setting up your development enviroment for belkin coding bootcamp
+# Setting up your development enviroment for Belkin coding bootcamp
 
 ###### Contributed by Aaron Malone and Jared Triplett
 
