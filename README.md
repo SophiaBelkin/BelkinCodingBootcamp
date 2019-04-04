@@ -19,7 +19,7 @@ In order to complete this guide, you may need administrative powers in order to 
 2. Download and install the IDE
 * On Windows, get the ZIP file download to avoid admin checks
 
-<img src="https://github.com/SophiaBelkin/BelkinCodingBootcamp/blob/master/images/BoardManager.png?raw=true">
+<img src="https://github.com/SophiaBelkin/BelkinCodingBootcamp/blob/master/images/IDEDownload.png?raw=true">
 
 
 ## 2. Add ESP8266 Library to the IDE
@@ -28,7 +28,7 @@ In order to complete this guide, you may need administrative powers in order to 
 * On OS X, click on 'Arduino' (at the top), then 'Preferences'
 2. Enter `http://arduino.esp8266.com/versions/2.2.0/package_esp8266com_index.json` in the "Additional Boards Manager URLs:" field
 
-<img src="https://github.com/SophiaBelkin/BelkinCodingBootcamp/blob/master/images/BoardManager.png?raw=true">
+<img src="https://github.com/SophiaBelkin/BelkinCodingBootcamp/blob/master/images/PereferencesWindow.png?raw=true">
 
 <span style="color:#f90">Note:</span> The "Sketchbook Location" is where your code will be saved. You can change it to wherever you want.
 
