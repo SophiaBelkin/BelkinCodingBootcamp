@@ -17,7 +17,7 @@ In order to complete this guide, you may need administrative powers in order to 
 ## 1. Installing the Arduino IDE
 1. Goto [https://www.arduino.cc/en/main/software](https://www.arduino.cc/en/main/software) 
 2. Download and install the IDE
-* On Windows, get the ZIP file download to avoid admin checks
+* On Windows, get the ZIP file download to avoid entering admin password
 
 <img src="https://github.com/SophiaBelkin/BelkinCodingBootcamp/blob/master/images/IDEDownload.png?raw=true">
 
@@ -77,6 +77,7 @@ Flash Size: 4M (3M SPIFFS)
 <img src="https://github.com/SophiaBelkin/BelkinCodingBootcamp/blob/master/images/ConsoleUpload.png?raw=true">
 
 
+<span style="color:#f90">Note:</span> If you're running into issue uploading the Sketch on Mac, try installing the port drivers [[HERE](https://github.com/SophiaBelkin/BelkinCodingBootcamp/tree/master/drivers/OSX)]
 
 We will talk about these examples during the coding bootcamp class. Don't worry about working on them now.
 
