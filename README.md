@@ -77,7 +77,9 @@ Flash Size: 4M (3M SPIFFS)
 <img src="https://github.com/SophiaBelkin/BelkinCodingBootcamp/blob/master/images/ConsoleUpload.png?raw=true">
 
 
-<span style="color:#f90">Note:</span> If you're running into issue uploading the Sketch on Mac, try installing the port drivers [[HERE](https://github.com/SophiaBelkin/BelkinCodingBootcamp/tree/master/drivers/OSX)]
+<span style="color:#f90">Note:</span> If you're running into issue uploading the Sketch, try installing the port drivers 
+[[OSX](https://github.com/SophiaBelkin/BelkinCodingBootcamp/tree/master/drivers/OSX)]
+[[Windows Drivers](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)]
 
 We will talk about these examples during the coding bootcamp class. Don't worry about working on them now.
 
