@@ -81,15 +81,14 @@ Flash Size: 4M (3M SPIFFS)
 [[OSX](https://github.com/SophiaBelkin/BelkinCodingBootcamp/tree/master/drivers/OSX)]
 [[Windows Drivers](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)]
 
-We will talk about these examples during the coding bootcamp class. Don't worry about working on them now.
+
 
 ## Samples
 1. Blank Sketch
 2. Blinking Light
 3. WiFi Access Point
 
-
-# Samples
+We will talk about these examples during the coding bootcamp class. Don't worry about working on them now.
 
 ## Blank Arduino Sketch
 ```ino
