@@ -148,7 +148,7 @@ void setup() {
 
 
   server.on("/", []() {   //Define the handling function for the path
-    server.send(200, "text/plain", ""Hello world"");
+    server.send(200, "text/plain", "Hello world");
   });
 
   server.on("/other", handleRootPath);
