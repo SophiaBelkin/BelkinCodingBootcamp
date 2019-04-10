@@ -23,7 +23,7 @@ In order to complete this guide, you may need administrative powers in order to 
 
 
 ## 2. Add ESP8266 Library to the IDE
-1. Click on File > Preferences
+1. Launch the Arduino application, click on File > Preferences
 * On Windows, click on 'File' (at the top of the window), then 'Preferences'
 * On OS X, click on 'Arduino' (at the top), then 'Preferences'
 2. Enter `http://arduino.esp8266.com/versions/2.2.0/package_esp8266com_index.json` in the "Additional Boards Manager URLs:" field
