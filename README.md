@@ -25,7 +25,7 @@ In order to complete this guide, you may need administrative powers in order to 
 ## 2. Add ESP8266 Library to the IDE
 1. Launch the Arduino application, click on File > Preferences
 
-2. Enter `http://arduino.esp8266.com/stable/package_esp8266com_index.json` in the "Additional Boards Manager URLs:" field
+2. Enter `http://arduino.esp8266.com/stable/package_esp8266com_index.json` in the "Additional Boards Manager URLs:" field 
 
 <img src="https://github.com/SophiaBelkin/BelkinCodingBootcamp/blob/master/images/PereferencesWindow.png?raw=true">
 
@@ -57,7 +57,7 @@ Flash Size: 4M (3M SPIFFS)
 <img src="https://github.com/Snappsu/Coding-Bootcamp/blob/master/pics/UploadSettings.png?raw=true">
 
 4. Pick the right port
-<img src="https://github.com/SophiaBelkin/BelkinCodingBootcamp/blob/master/images/choosePort.png?raw=true" width="400">
+<img src="https://github.com/SophiaBelkin/BelkinCodingBootcamp/blob/master/images/choosePort.png?raw=true" width="370">
 
 <span style="color:#f90">Note:</span> If you're having trouble finding the right port, try unplugging the module, observing the list of avaiable port, then pluging in the module into the same port, and looking for any differences.
 
