@@ -26,13 +26,14 @@ In order to complete this guide, you may need administrative powers in order to 
 1. Launch the Arduino application, click on File > Preferences
 * On Windows, click on 'File' (at the top of the window), then 'Preferences'
 * On OS X, click on 'Arduino' (at the top), then 'Preferences'
-2. Enter `http://arduino.esp8266.com/versions/2.2.0/package_esp8266com_index.json` in the "Additional Boards Manager URLs:" field
+2. Enter `http://arduino.esp8266.com/stable/package_esp8266com_index.json` in the "Additional Boards Manager URLs:" field
 
 <img src="https://github.com/SophiaBelkin/BelkinCodingBootcamp/blob/master/images/PereferencesWindow.png?raw=true">
 
 <span style="color:#f90">Note:</span> The "Sketchbook Location" is where your code will be saved. You can change it to wherever you want.
 
 3. Go to Tools > Board: [board name] > Board Manager
+<img src="https://github.com/SophiaBelkin/BelkinCodingBootcamp/blob/master/images/BoardManager1.png?raw=true">
 
 4. Filter for `ESP8266`
 <img src="https://github.com/SophiaBelkin/BelkinCodingBootcamp/blob/master/images/BoardManager.png?raw=true">
