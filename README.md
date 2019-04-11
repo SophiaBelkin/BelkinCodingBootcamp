@@ -32,8 +32,7 @@ In order to complete this guide, you may need administrative powers in order to 
 
 <span style="color:#f90">Note:</span> The "Sketchbook Location" is where your code will be saved. You can change it to wherever you want.
 
-3. Go to Tools > Boards:"[boardName]" > Board Manager
-<img src="https://github.com/SophiaBelkin/BelkinCodingBootcamp/blob/master/images/boardManager1.png?raw=true">
+3. Go to Tools >  Manage Libries...
 
 4. Filter for `ESP8266`
 <img src="https://github.com/SophiaBelkin/BelkinCodingBootcamp/blob/master/images/BoardManager.png?raw=true">
