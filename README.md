@@ -40,9 +40,9 @@ In order to complete this guide, you may need administrative powers in order to 
 5. Install the latest version of the library
 
 ## 3. Configuring the Upload Settings
-1. Plug in the NodeMCU in to the PC
+1. Plug in the NodeMCU in to the PC (We will give you a nodeMCU board during the class)
 
-2. Select ModeMCU as the board
+2. Select nodeMCU as the board
 1). At the top, click on "Tools"
 2). Hover over "Board: ..."
 3). Select "NodeMCU 1.0 (ESP-12E Module)"
