@@ -7,8 +7,8 @@
 //Declare a global object variable from ESP8266WebServer class
 ESP8266WebServer server(80);
 
-const char* ssid = "said";
-const char* password = "password";
+const char* ssid = "coding-bootcamp";
+const char* password = "belkin123";
 
 
 void setup() {
@@ -26,7 +26,7 @@ void setup() {
 
 
   server.on("/", []() {   //Define the handling function for the path
-    server.send(200, "text/plain", "Hello world");
+    server.send(200, "text/plain", "Hello and welcome to coding bootcamp");
   });
 
   server.on("/other", handleRootPath);
