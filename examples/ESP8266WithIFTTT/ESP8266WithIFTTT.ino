@@ -1,10 +1,10 @@
 #include "ESP8266IFTTT.h"
 #include "ESP8266WiFi.h"
 
-#define ssid "sophia-shield-qa"
+#define ssid "coding-bootcamp"
 #define password "belkin123"
-#define IFTTT_API_KEY "czXVUEU4zqKlFn3O1xQAHj"
-#define IFTTT_EVENT_NAME "button_pushed"
+#define IFTTT_API_KEY "api-key"
+#define IFTTT_EVENT_NAME "event-name"
 
 int ledPin = D8;
 void setup() {
