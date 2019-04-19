@@ -3,7 +3,7 @@
 #include "ESP8266WebServer.h"
  
 // Replace with your network credentials
-String ssid = "sophia-shield-qa";
+String ssid = "coding-bootcamp";
 String password = "belkin123";
  
 ESP8266WebServer server(80);   //instantiate server at port 80 (http port)
@@ -35,15 +35,15 @@ void setup(void){
   server.on("/", [](){
     server.send(200, "text/html", page);
   });
+  
   server.on("/LEDOff", [](){
     server.send(200, "text/html", page);
     digitalWrite(LEDPin, LOW);
-    delay(1000);
   });
+
   server.on("/LEDOn", [](){
     server.send(200, "text/html", page);
     digitalWrite(LEDPin, HIGH);
-    delay(1000); 
   });
   
   server.begin();
