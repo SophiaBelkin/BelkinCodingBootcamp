@@ -1,46 +1,30 @@
-#include "IFTTTWebhook.h"
+#include "ESP8266IFTTT.h"
 #include "ESP8266WiFi.h"
 
-#define ledPin D8
-#define wakePin 16
-#define ssid "YOUR_WIFI_SSID"
-#define password "YOUR_WIFI_PASSWORD"
-#define IFTTT_API_KEY "IFTTT_KEY_GOES_HERE"
-#define IFTTT_EVENT_NAME "IFTTT_EVENT_NAME_HERE"
+#define ssid "sophia-shield-qa"
+#define password "belkin123"
+#define IFTTT_API_KEY "czXVUEU4zqKlFn3O1xQAHj"
+#define IFTTT_EVENT_NAME "button_pushed"
 
+int ledPin = D8;
 void setup() {
+
+  pinMode(ledPin, OUTPUT);   // initialize the LED pin as an output:
   Serial.begin(115200);
-  Serial.println(" ");// print an empty line before and after Button Press    
-  Serial.println("Button Pressed");
-  Serial.println(" ");// print an empty line  
+  // Wait for connection
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.println("Waiting to connect...");
+  }
 
-  WiFi.begin(ssid, password);  
-  Serial.println(" ");// print an empty line
-  Serial.print("Attempting to connect: ");
-
-  while(WiFi.status() != WL_CONNECTED) {
-    delay(1000);
-    Serial.print(".");
-  } 
-  Serial.println("");
-  Serial.print("Connected to ");
-  Serial.println(ssid);
-  Serial.print("IP address: ");
+  Serial.println("IP address: ");
   Serial.println(WiFi.localIP()); 
 
-  //just connected to Wi-Fi
-  IFTTTWebhook hook(IFTTT_API_KEY, IFTTT_EVENT_NAME);
-  hook.trigger();
-  
-  pinMode(ledPin, OUTPUT);
+  IFTTT.trigger(IFTTT_EVENT_NAME, IFTTT_API_KEY);
   digitalWrite(ledPin, HIGH);   
   delay(200);              
   digitalWrite(ledPin, LOW); 
-  //now sending board to sleep
-  
-  ESP.deepSleep(wakePin); 
 }
 
 void loop() {
-  Serial.print("This line should not run");
 }
